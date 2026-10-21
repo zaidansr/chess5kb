@@ -1,0 +1,6 @@
+# Local build tools and intermediate files are not part of the game.
+*.tmp
+*.full.exe
+tools/
+.DS_Store
+Thumbs.db

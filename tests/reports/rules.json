@@ -1,0 +1,315 @@
+[
+  {
+    "case": "initial",
+    "passed": true,
+    "errors": [],
+    "legal_count": 20,
+    "perft": {
+      "1": 20,
+      "2": 400,
+      "3": 8902
+    }
+  },
+  {
+    "case": "castle_clear",
+    "passed": true,
+    "errors": [],
+    "legal_count": 26,
+    "perft": {
+      "1": 26,
+      "2": 112
+    }
+  },
+  {
+    "case": "castle_through_check",
+    "passed": true,
+    "errors": [],
+    "legal_count": 23,
+    "perft": {
+      "1": 23
+    }
+  },
+  {
+    "case": "castle_out_of_check",
+    "passed": true,
+    "errors": [],
+    "legal_count": 4,
+    "perft": {
+      "1": 4
+    }
+  },
+  {
+    "case": "castle_rights_absent",
+    "passed": true,
+    "errors": [],
+    "legal_count": 24,
+    "perft": {
+      "1": 24
+    }
+  },
+  {
+    "case": "ep_legal",
+    "passed": true,
+    "errors": [],
+    "legal_count": 7,
+    "perft": {
+      "1": 7,
+      "2": 38
+    }
+  },
+  {
+    "case": "ep_exposes_king",
+    "passed": true,
+    "errors": [],
+    "legal_count": 6,
+    "perft": {
+      "1": 6
+    }
+  },
+  {
+    "case": "ep_horizontal_pin",
+    "passed": true,
+    "errors": [],
+    "legal_count": 4,
+    "perft": {
+      "1": 4
+    }
+  },
+  {
+    "case": "ep_expired",
+    "passed": true,
+    "errors": [],
+    "legal_count": 6,
+    "perft": {
+      "1": 6
+    }
+  },
+  {
+    "case": "fools_mate",
+    "passed": true,
+    "errors": [],
+    "legal_count": 0,
+    "perft": {
+      "1": 0
+    }
+  },
+  {
+    "case": "stalemate",
+    "passed": true,
+    "errors": [],
+    "legal_count": 0,
+    "perft": {
+      "1": 0
+    }
+  },
+  {
+    "case": "pinned_knight",
+    "passed": true,
+    "errors": [],
+    "legal_count": 4,
+    "perft": {
+      "1": 4
+    }
+  },
+  {
+    "case": "king_capture_defended",
+    "passed": true,
+    "errors": [],
+    "legal_count": 2,
+    "perft": {
+      "1": 2
+    }
+  },
+  {
+    "case": "king_attack",
+    "passed": true,
+    "errors": [],
+    "legal_count": 2,
+    "perft": {
+      "1": 2
+    }
+  },
+  {
+    "case": "kiwipete",
+    "passed": true,
+    "errors": [],
+    "legal_count": 48,
+    "perft": {
+      "1": 48,
+      "2": 2039
+    }
+  },
+  {
+    "case": "rook_ep_endgame",
+    "passed": true,
+    "errors": [],
+    "legal_count": 14,
+    "perft": {
+      "1": 14,
+      "2": 191,
+      "3": 2812
+    }
+  },
+  {
+    "case": "promotion",
+    "passed": true,
+    "errors": [],
+    "legal_count": 6,
+    "perft": {
+      "1": 6
+    }
+  },
+  {
+    "case": "white_promotion_n",
+    "passed": true,
+    "errors": [],
+    "legal_count": 5,
+    "perft": {
+      "1": 5
+    }
+  },
+  {
+    "case": "black_promotion_n",
+    "passed": true,
+    "errors": [],
+    "legal_count": 5,
+    "perft": {
+      "1": 5
+    }
+  },
+  {
+    "case": "white_promotion_b",
+    "passed": true,
+    "errors": [],
+    "legal_count": 5,
+    "perft": {
+      "1": 5
+    }
+  },
+  {
+    "case": "black_promotion_b",
+    "passed": true,
+    "errors": [],
+    "legal_count": 5,
+    "perft": {
+      "1": 5
+    }
+  },
+  {
+    "case": "white_promotion_r",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "black_promotion_r",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "white_promotion_q",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "black_promotion_q",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "play_white_castle_k",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "play_white_castle_q",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "play_black_castle_k",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "play_black_castle_q",
+    "passed": true,
+    "errors": [],
+    "legal_count": 3,
+    "perft": {
+      "1": 3
+    }
+  },
+  {
+    "case": "play_white_ep",
+    "passed": true,
+    "errors": [],
+    "legal_count": 4,
+    "perft": {
+      "1": 4
+    }
+  },
+  {
+    "case": "play_black_ep",
+    "passed": true,
+    "errors": [],
+    "legal_count": 4,
+    "perft": {
+      "1": 4
+    }
+  },
+  {
+    "case": "king_return_revokes_rights",
+    "passed": true,
+    "errors": [],
+    "legal_count": 24,
+    "perft": {
+      "1": 24
+    }
+  },
+  {
+    "case": "rook_return_revokes_right",
+    "passed": true,
+    "errors": [],
+    "legal_count": 25,
+    "perft": {
+      "1": 25
+    }
+  },
+  {
+    "case": "play_double_then_ep_expires",
+    "passed": true,
+    "errors": [],
+    "legal_count": 6,
+    "perft": {
+      "1": 6
+    }
+  }
+]

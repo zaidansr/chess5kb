@@ -1,0 +1,39 @@
+{
+  "artifact": "bin/chess5kb.exe",
+  "verification_date": "2026-10-21",
+  "method": "Read the final executable bytes, compute SHA-256, and parse the PE headers and base relocation directory",
+  "executable_bytes": 4932,
+  "under_5000_bytes": true,
+  "sha256": "3e72e5f1c677c8a9fb86e247893cd56df4d0b119dcac99f431abb3c00a5eb4b1",
+  "pe": {
+    "machine": "0x014c (IMAGE_FILE_MACHINE_I386)",
+    "optional_header_magic": "0x010b (PE32)",
+    "subsystem": "2 (Windows GUI)",
+    "section_count": 1,
+    "section_name": ".chess",
+    "section_characteristics": "0xe0000020 (code, readable, writable, executable)",
+    "headers_bytes": 512,
+    "section_raw_bytes": 4420,
+    "section_virtual_bytes": 12612,
+    "image_bytes_in_memory": 20480,
+    "entrypoint_rva": 4731,
+    "timestamp": 0,
+    "checksum": 0,
+    "import_directory_bytes": 635,
+    "base_relocation_bytes": 122,
+    "base_relocation_block_count": 1,
+    "highlow_relocation_count": 57,
+    "other_relocation_count": 0,
+    "relocation_directory_ends_at_eof": true,
+    "all_highlow_targets_within_file_backed_section": true
+  },
+  "checks": [
+    {"name": "File is less than 5,000 bytes", "passed": true},
+    {"name": "PE32 x86 executable selects the Windows GUI subsystem", "passed": true},
+    {"name": "Single section has 512-byte headers plus 4,420 file-backed bytes", "passed": true},
+    {"name": "Complete 122-byte relocation directory parses to the exact end of file", "passed": true},
+    {"name": "All 57 HIGHLOW relocations address file-backed bytes", "passed": true},
+    {"name": "Timestamp and checksum are normalized to zero", "passed": true}
+  ],
+  "notes": "The final release was rebuilt after the window title and registered class name were changed to chess5kb. The prior 4,935-byte prototype received the interaction tests recorded in gui.json. The final release shares its chess core and GUI behavior but is not byte-identical; this report records build sanity checks, not a fresh run of those interaction tests."
+}

@@ -1,0 +1,24 @@
+{
+  "method": "Mouse interaction and visual inspection of the actual native GUI through Windows Computer Use",
+  "executable_bytes": 4935,
+  "tested_build": "GUI prototype before the final executable and window/class rename",
+  "final_renamed_executable_bytes": 4932,
+  "under_5000_bytes": true,
+  "checks": [
+    {"name": "Green and cream board, shadowed pieces, coordinates, readable sidebar", "passed": true},
+    {"name": "Selecting e2 shows e3 and e4 legal move dots", "passed": true},
+    {"name": "Illegal e2 to e5 rejected", "passed": true},
+    {"name": "Selecting another friendly piece replaces move hints", "passed": true},
+    {"name": "Capture marker on d5 and e4xd5 board update", "passed": true},
+    {"name": "e2e4 d7d5 f1b5 displays Check and red king; c7c6 clears it", "passed": true},
+    {"name": "Friend game f2f3 e7e5 g2g4 d8h4 displays Checkmate", "passed": true},
+    {"name": "Board input after checkmate blocked", "passed": true},
+    {"name": "Easy mode starts a new game and replies to e2e4", "passed": true},
+    {"name": "Medium mode starts a new game and replies to e2e4", "passed": true},
+    {"name": "Hard mode starts a new game and replies to e2e4", "passed": true},
+    {"name": "Switching back to Friend starts a local two-player game", "passed": true},
+    {"name": "Restart restores initial position and White turn", "passed": true},
+    {"name": "Promotion selector changes to N and back to Q", "passed": true}
+  ],
+  "notes": "These interaction checks were performed on the 4,935-byte GUI prototype. The final 4,932-byte chess5kb.exe was rebuilt after changing the window title and registered window class name to chess5kb. It shares the tested chess core and GUI behavior, but it is not byte-identical to the tested prototype. Separate release build checks verify the final file size, SHA-256, x86 GUI PE headers, and retained relocation data; see release.json. The core's separate 34-scenario report includes actual N/B/R/Q promotion execution for both colors. GUI promotion selection was tested separately."
+}
